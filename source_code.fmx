@@ -2,12 +2,11 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 480
-  ClientWidth = 640
+  ClientHeight = 485
+  ClientWidth = 459
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
-  OnCreate = FormCreate
   DesignerMasterStyle = 0
   object Label1: TLabel
     Position.X = 64.000000000000000000
@@ -25,7 +24,7 @@ object Form1: TForm1
     Size.Height = 89.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 9
-    Text = '1'
+    OnClick = Button1Click
   end
   object Button2: TButton
     Position.X = 192.000000000000000000
@@ -34,7 +33,7 @@ object Form1: TForm1
     Size.Height = 89.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 8
-    Text = '2'
+    OnClick = Button2Click
   end
   object Button3: TButton
     Position.X = 320.000000000000000000
@@ -43,7 +42,7 @@ object Form1: TForm1
     Size.Height = 89.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 7
-    Text = '3'
+    OnClick = Button3Click
   end
   object Button4: TButton
     Position.X = 64.000000000000000000
@@ -52,7 +51,7 @@ object Form1: TForm1
     Size.Height = 89.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
-    Text = '4'
+    OnClick = Button4Click
   end
   object Button5: TButton
     Position.X = 192.000000000000000000
@@ -61,7 +60,7 @@ object Form1: TForm1
     Size.Height = 89.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 6
-    Text = '5'
+    OnClick = Button5Click
   end
   object Button6: TButton
     Position.X = 320.000000000000000000
@@ -70,7 +69,7 @@ object Form1: TForm1
     Size.Height = 89.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 5
-    Text = '6'
+    OnClick = Button6Click
   end
   object Button7: TButton
     Position.X = 64.000000000000000000
@@ -79,7 +78,7 @@ object Form1: TForm1
     Size.Height = 89.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 4
-    Text = '7'
+    OnClick = Button7Click
   end
   object Button8: TButton
     Position.X = 192.000000000000000000
@@ -88,7 +87,7 @@ object Form1: TForm1
     Size.Height = 89.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 3
-    Text = '8'
+    OnClick = Button8Click
   end
   object Button9: TButton
     Position.X = 320.000000000000000000
@@ -97,7 +96,7 @@ object Form1: TForm1
     Size.Height = 89.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
-    Text = '9'
+    OnClick = Button9Click
   end
   object Label3: TLabel
     Position.X = 64.000000000000000000
@@ -109,12 +108,12 @@ object Form1: TForm1
     TabOrder = 10
   end
   object Label2: TLabel
-    Position.X = 192.000000000000000000
+    Position.X = 176.000000000000000000
     Position.Y = 32.000000000000000000
-    Size.Width = 105.000000000000000000
+    Size.Width = 153.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
     Text = 'currentPlayerSymbol'
-    TabOrder = 12
+    TabOrder = 11
   end
 end

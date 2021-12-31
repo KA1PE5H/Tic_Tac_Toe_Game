@@ -1,0 +1,74 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#pragma hdrstop
+
+#include "source_code.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.fmx"
+TForm1 *Form1;
+
+char currentPlayerSymbol = 'x';
+char a[9];
+
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+	Button1->Text = a[0];
+	Button2->Text = a[1];
+	Button3->Text = a[2];
+	Button4->Text = a[3];
+	Button5->Text = a[4];
+	Button6->Text = a[5];
+	Button7->Text = a[6];
+	Button8->Text = a[7];
+	Button9->Text = a[8];
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	a[0]=currentPlayerSymbol;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+	a[1]=currentPlayerSymbol;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+	a[2]=currentPlayerSymbol;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button4Click(TObject *Sender)
+{
+	a[3]=currentPlayerSymbol;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button5Click(TObject *Sender)
+{
+	a[4]=currentPlayerSymbol;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button6Click(TObject *Sender)
+{
+	a[5]=currentPlayerSymbol;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button7Click(TObject *Sender)
+{
+	a[6]=currentPlayerSymbol;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button8Click(TObject *Sender)
+{
+	a[7]=currentPlayerSymbol;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button9Click(TObject *Sender)
+{
+	a[8]=currentPlayerSymbol;
+}
+//---------------------------------------------------------------------------
